@@ -2,15 +2,7 @@
 Connecting two pods from different namespace
 lets consider the two tier apllication where wordpress works as front and mysql as backend
 
-$ git glone 
-
-Create a basic Kubernetes Service for a HTTP server
-
-$ kubectl create -f kube-dns.yml
-
-To check service
-
-$ kubectl get svc
+$ git glone https://github.com/20vaishnavi/pod-conn-of-diff-namespace.git 
 
 create namespaces
 
